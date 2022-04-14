@@ -1,0 +1,94 @@
+.GameScreen{
+    border: 2px solid blue;
+    max-width: 800px;
+}
+
+.GameScreen-1{
+    display: grid;
+    grid-template-columns: 1fr 50px 1fr;
+    grid-template-rows: 100px 1fr;
+    grid-template-areas: 
+        "1a 1b 1c"
+        "2a 2b 2c";
+    justify-items: center;
+    align-items: center;
+}
+.GameScreen-2{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 50px 1fr;
+    grid-template-areas: 
+        "1a"
+        "2a";
+    justify-items: center;
+    align-items: center;
+
+}
+
+
+.move-display{
+    width: 200px;
+    height: 200px;
+}
+
+.move-icon{
+    width: 150px;
+    height: 150px;
+}
+
+
+.GameScreen-1-1a{
+    grid-row-start: 1a;
+    grid-row-end: 1a;
+    grid-column-start: 1a;
+    grid-column-end: 1a;
+}
+
+.GameScreen-1-1b{
+    grid-row-start: 1b;
+    grid-row-end: 1b;
+    grid-column-start: 1b;
+    grid-column-end: 1b;
+}
+
+.GameScreen-1-1c{
+    grid-row-start: 1c;
+    grid-row-end: 1c;
+    grid-column-start: 1c;
+    grid-column-end: 1c;
+}
+
+.GameScreen-1-2a{
+    grid-row-start: 2a;
+    grid-row-end: 2a;
+    grid-column-start: 2a;
+    grid-column-end: 2a;
+}
+
+.GameScreen-1-2b{
+    grid-row-start: 2b;
+    grid-row-end: 2b;
+    grid-column-start: 2b;
+    grid-column-end: 2b;
+}
+
+.GameScreen-1-2c{
+    grid-row-start: 2c;
+    grid-row-end: 2c;
+    grid-column-start: 2c;
+    grid-column-end: 2c;
+}
+
+.GameScreen-2-1a{
+    grid-row-start: 1a;
+    grid-row-end: 1a;
+    grid-column-start: 1a;
+    grid-column-end: 1a;
+}
+
+.GameScreen-2-2a{
+    grid-row-start: 2a;
+    grid-row-end: 2a;
+    grid-column-start: 2a;
+    grid-column-end: 2a;
+}
